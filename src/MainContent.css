@@ -1,0 +1,87 @@
+/* src/MainContent.css */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(6, 11, 84);
+    /* Adjust background color */
+    color: white;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    /* Adjust font size */
+    margin-bottom: 10px;
+    color: #4a63e7
+}
+
+.main-content h1 {
+    font-size: 3em;
+
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* Make the text bold */
+}
+
+.main-content p {
+    font-size: 1.2em;
+    color: #ffffff;
+    /* Adjust color for better contrast */
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Set gap between buttons */
+    margin-bottom: 40px;
+    /* Add margin to separate buttons from graphic */
+}
+
+.start-button,
+.request-button {
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.start-button {
+    background-color: #4a63e7;
+    /* Button background color */
+}
+
+.start-button:hover {
+    background-color: #6574cd;
+    /* Button hover color */
+}
+
+.request-button {
+    background-color: #4a5568;
+    /* Button background color */
+}
+
+.request-button:hover {
+    background-color: #2d3748;
+    /* Button hover color */
+}
+
+.graphic {
+    margin-top: 20px;
+    /* Add margin to separate from buttons */
+}
+
+.graphic-svg {
+    width: 200px;
+    /* Adjust the size as needed */
+    height: 200px;
+}

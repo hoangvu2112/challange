@@ -1,0 +1,30 @@
+/* src/TeamSection.css */
+
+.team-section {
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(6, 11, 84);
+
+}
+
+.team-section h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.team-section h3 {
+    font-size: 2em;
+    color: #6574cd;
+    /* Adjust color to match the style */
+    margin: 10px 0;
+}
+
+.team-section p {
+    font-size: 1.2em;
+    color: #efefef;
+    /* Adjust color for better contrast */
+    margin-top: 20px;
+}

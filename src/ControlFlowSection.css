@@ -1,0 +1,57 @@
+/* src/ControlFlowSection.css */
+
+.control-flow-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(6, 11, 84);
+    /* Match background color */
+    color: white;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.text-content h3 {
+    font-size: 2em;
+    color: #6574cd;
+    /* Adjust color to match the style */
+    margin: 10px 0;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    color: #ffffff;
+    /* Adjust color for better contrast */
+    margin-top: 20px;
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4a63e7;
+    color: white;
+    margin-top: 20px;
+}
+
+.image-content img {
+    max-width: 100%;
+    /* Ensure it scales down on smaller screens */
+    height: auto;
+    border-radius: 20px;
+    /* Set border radius to 20px */
+    object-fit: cover;
+    /* Ensure the image covers the entire area */
+}

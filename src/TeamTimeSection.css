@@ -1,0 +1,40 @@
+.team-time-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(0, 6, 80);
+    /* Màu nền */
+}
+
+.team-time-section .text {
+    width: 600px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.team-time-section .text h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.team-time-section .text p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.team-time-section .images {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.team-time-section .images img {
+    width: 600px;
+    height: 408px;
+    border-radius: 20px;
+    object-fit: cover;
+}
