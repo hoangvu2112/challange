@@ -1,0 +1,39 @@
+/* src/TrustedCompanies.css */
+
+.trusted-companies {
+    text-align: center;
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(30, 41, 59, 1);
+    width: 100%;
+}
+
+.trusted-companies p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: center;
+    /* Center align logos */
+    align-items: center;
+    gap: 2rem;
+    /* Adjust the gap as needed */
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+    color: #ffffff;
+}
+
+.company-logo img {
+    width: 55.81px;
+    height: 32px;
+    margin-right: 10px;
+    /* Add space between the logo and the text */
+}

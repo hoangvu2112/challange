@@ -1,0 +1,35 @@
+/* src/WebInterfaceSection.css */
+
+.web-interface-section {
+    text-align: center;
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #4a63e7 50%, rgba(30, 41, 59, 1) 50%);
+    /* Create a two-color background */
+    color: white;
+}
+
+.web-interface-section h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.web-interface-section h3 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.web-interface-section img {
+    width: 1280px;
+    /* Set width to 1280px */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 20px;
+    /* Set border radius to 20px */
+    border: 10px solid white;
+    /* Set border to 10px solid white */
+    margin-top: 20px;
+    max-width: 100%;
+    /* Ensure it scales down on smaller screens */
+}

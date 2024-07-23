@@ -1,0 +1,102 @@
+/* src/TestimonialsSection.css */
+
+.testimonials-section {
+    text-align: center;
+    padding: 10px 0 5px 0;
+    /* Further reduced bottom padding to remove extra space */
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(30, 41, 59, 1);
+    /* Match background color */
+    color: white;
+    gap: 80px;
+    /* Set gap between elements */
+}
+
+.testimonials-section h2 {
+    font-size: 3em;
+    /* Adjust font size */
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* Make the text bold */
+    line-height: 1.2;
+    /* Adjust line height for better spacing */
+}
+
+.testimonials-section h2 span {
+    color: #6574cd;
+    /* Adjust color to match the style */
+}
+
+.testimonials-section p {
+    font-size: 1.2em;
+    color: #a0aec0;
+    /* Adjust color for better contrast */
+    margin-bottom: 40px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Allow items to wrap to new lines */
+    gap: 24px;
+    /* Adjust gap between testimonials */
+}
+
+.testimonial {
+    width: calc(33.33% - 16px);
+    /* Adjust width for three columns */
+    background-color: #2d3748;
+    border-radius: 20px;
+    /* Set border radius to 20px */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07),
+        0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+    /* Set shadows */
+    padding: 20px;
+    margin: 10px 0;
+    /* Add margin for spacing between testimonials */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-content h3 {
+    font-size: 1.5em;
+    color: #6574cd;
+}
+
+.testimonial-content p {
+    font-size: 1em;
+    color: #a0aec0;
+    /* Adjust color for better contrast */
+    margin: 20px 0;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.pagination {
+    margin-top: 10px;
+    /* Further reduced top margin to align closer to testimonials */
+}
+
+.pagination-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4a63e7;
+    color: white;
+    margin: 0 5px;
+}
