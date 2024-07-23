@@ -5,11 +5,7 @@
     padding: 50px 0;
     max-width: 1440px;
     margin: 0 auto;
-<<<<<<< HEAD
     background-color: rgba(30, 41, 59, 1);
-=======
-    background-color: rgb(6, 11, 84);
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     width: 100%;
 }
 
@@ -22,36 +18,22 @@
 .company-logos {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     /* Center align logos */
     align-items: center;
     gap: 2rem;
     /* Adjust the gap as needed */
-=======
-    align-items: center;
-    gap: 2rem;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .company-logo {
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     /* Align items vertically */
-=======
-    flex-direction: column;
-    align-items: center;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     color: #ffffff;
 }
 
 .company-logo img {
     width: 55.81px;
     height: 32px;
-<<<<<<< HEAD
     margin-right: 10px;
     /* Add space between the logo and the text */
-=======
-    margin-bottom: 0.5rem;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }

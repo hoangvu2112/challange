@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     padding: 80px 80px 0 80px;
     /* Updated padding */
     max-width: 1440px;
@@ -17,14 +16,6 @@
     box-sizing: border-box;
     gap: 80px;
     /* Updated gap */
-=======
-    padding: 50px 0;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: rgb(0, 6, 80);
-
-    color: white;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .text-content {
@@ -39,10 +30,6 @@
 .text-content p {
     font-size: 1.2em;
     color: #a0aec0;
-<<<<<<< HEAD
-=======
-    /* Adjust color for better contrast */
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     margin-top: 20px;
 }
 
@@ -57,7 +44,6 @@
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
 .graph-content {
     flex: 1;
     display: flex;
@@ -69,14 +55,4 @@
     height: auto;
     border-radius: 20px;
     object-fit: cover;
-=======
-.graph-content img {
-    max-width: 100%;
-    /* Ensure it scales down on smaller screens */
-    height: auto;
-    border-radius: 20px;
-    /* Set border radius to 20px */
-    object-fit: cover;
-    /* Ensure the image covers the entire area */
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }

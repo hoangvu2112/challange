@@ -1,7 +1,6 @@
 /* src/Footer.css */
 
 .footer {
-<<<<<<< HEAD
     background-color: rgba(51, 65, 85, 1);
     /* Updated background color */
     color: #a0aec0;
@@ -11,14 +10,6 @@
     margin: 0 auto;
     height: auto;
     /* Adjust the height to fit content */
-=======
-    background-color: #2d3748;
-    color: #a0aec0;
-    padding: 50px 0;
-    max-width: 1440px;
-    margin: 0 auto;
-    ;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .footer-content {
@@ -26,12 +17,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-<<<<<<< HEAD
     margin-bottom: 20px;
     /* Reduced margin */
-=======
-    margin-bottom: 30px;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .footer-column {
@@ -41,12 +28,8 @@
 
 .footer-column h3 {
     color: white;
-<<<<<<< HEAD
     margin-bottom: 10px;
     /* Reduced margin */
-=======
-    margin-bottom: 15px;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .footer-column ul {
@@ -55,12 +38,8 @@
 }
 
 .footer-column ul li {
-<<<<<<< HEAD
     margin-bottom: 5px;
     /* Reduced margin */
-=======
-    margin-bottom: 10px;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .footer-column ul li .beta {
@@ -76,19 +55,14 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-<<<<<<< HEAD
     padding: 10px 0;
     /* Reduced padding */
     margin-top: 10px;
     /* Reduced margin */
-=======
-    gap: 20px;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .footer-bottom p {
     margin: 0;
-<<<<<<< HEAD
     flex: 1;
     text-align: left;
 }
@@ -128,29 +102,4 @@
     /* Adjusted padding */
     padding-right: 80px;
     /* Adjusted padding */
-=======
-}
-
-.social-media {
-    display: flex;
-    gap: 15px;
-}
-
-.social-media i {
-    font-size: 1.5em;
-    cursor: pointer;
-    color: rgb(245, 237, 237);
-}
-
-.app-buttons {
-    display: flex;
-    gap: 20px;
-    /* Adjust the gap between buttons */
-}
-
-.app-buttons img {
-    width: 150px;
-    height: auto;
-    cursor: pointer;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }

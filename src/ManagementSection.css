@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     padding: 80px;
     /* Updated padding */
     max-width: 1440px;
@@ -17,32 +16,15 @@
     box-sizing: border-box;
     gap: 80px;
     /* Set gap between elements */
-=======
-    padding: 50px 0;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: rgb(6, 11, 84);
-    color: white;
-
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .text-content {
     max-width: 500px;
-<<<<<<< HEAD
-=======
-    margin-right: 24px;
-    /* Set gap to 24px */
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .text-content h2 {
     font-size: 2.5em;
-<<<<<<< HEAD
     margin: 0;
-=======
-    margin: 2;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .text-content h3 {
@@ -84,12 +66,8 @@
     cursor: pointer;
     border-radius: 5px;
     background-color: #4a63e7;
-<<<<<<< HEAD
     color: white;
     /* Updated color */
-=======
-    color: rgb(235, 37, 37);
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     margin-top: 20px;
 }
 
@@ -100,10 +78,6 @@
     /* Set height to 555px */
     border-radius: 20px;
     /* Set border radius to 20px */
-<<<<<<< HEAD
     object-fit: cover;
-=======
-    object-fit: 10px;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     /* Ensure the image covers the entire area */
 }

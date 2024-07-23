@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     padding: 16px 80px;
     /* Adjusted padding to reduce space */
     max-width: 1440px;
@@ -16,38 +15,19 @@
     /* Added box shadow for a subtle effect */
     height: 64px;
     /* Adjusted height to reduce space */
-=======
-    padding: 16px 32px;
-    /* Adjusted padding */
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: #000650;
-    /* Updated background color to match the desired image */
-    color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Added box shadow for a subtle effect */
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
-<<<<<<< HEAD
     color: white;
     /* Set brand color to white */
-=======
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .navbar-links {
     display: flex;
-<<<<<<< HEAD
     gap: 32px;
     /* Adjusted gap for better spacing */
-=======
-    gap: 24px;
-    /* Increased gap for better spacing */
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .navbar-links a {
@@ -65,11 +45,7 @@
 }
 
 .navbar-button {
-<<<<<<< HEAD
     background-color: #4a5568;
-=======
-    background-color: #6c757d;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     color: white;
     border: none;
     padding: 8px 16px;
@@ -80,9 +56,5 @@
 }
 
 .navbar-button:hover {
-<<<<<<< HEAD
     background-color: #2d3748;
-=======
-    background-color: #5a6268;
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }

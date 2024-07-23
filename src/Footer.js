@@ -65,19 +65,11 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p>Trakor @ 2023 &nbsp; | &nbsp; Terms of Service &nbsp; | &nbsp; Privacy Policy &nbsp; | &nbsp; Manage Cookies</p>
                 <div className="social-media">
-<<<<<<< HEAD
                     <img src="/youtube.svg" alt="youtube" className="youtube-svg" />
                     <img src="/facebook.svg" alt="facebook" className="facebook-svg" />
                     <img src="/twiter.svg" alt="twitter" className="twitter-svg" />
                     <img src="/instagram.svg" alt="instagram" className="instagram-svg" />
                     <img src="/in.svg" alt="linkedin-in" className="in-svg" />
-=======
-                    <i className="fab fa-youtube"></i>
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-instagram"></i>
-                    <i className="fab fa-linkedin-in"></i>
->>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
                 </div>
                 <div className="app-buttons">
                     <img src="https://static.wixstatic.com/media/824d13_7d31aba6cb534af0b0348133041fdab5~mv2.png/v1/fill/w_353,h_114,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/App-Store-Button-transparent.png" alt="Download on the App Store" />
