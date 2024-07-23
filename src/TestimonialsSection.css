@@ -2,6 +2,7 @@
 
 .testimonials-section {
     text-align: center;
+<<<<<<< HEAD
     padding: 10px 0 5px 0;
     /* Further reduced bottom padding to remove extra space */
     max-width: 1440px;
@@ -11,6 +12,14 @@
     color: white;
     gap: 80px;
     /* Set gap between elements */
+=======
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(0, 6, 80);
+    /* Match background color */
+    color: white;
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .testimonials-section h2 {
@@ -40,6 +49,7 @@
     justify-content: center;
     flex-wrap: wrap;
     /* Allow items to wrap to new lines */
+<<<<<<< HEAD
     gap: 24px;
     /* Adjust gap between testimonials */
 }
@@ -51,6 +61,22 @@
     border-radius: 20px;
     /* Set border radius to 20px */
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07),
+=======
+    gap: 10px;
+    /* Set gap to 10px */
+}
+
+.testimonial {
+    width: 100%;
+    /* Set width to 100% for full width */
+    max-width: 680px;
+    /* Set max-width to 680px */
+    background-color: #2d3748;
+    border-radius: 20px;
+    /* Set border radius to 20px */
+    box-shadow:
+        0px 0px 10px 0px rgba(0, 0, 0, 0.07),
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
         0px 20px 25px -5px rgba(0, 0, 0, 0.1);
     /* Set shadows */
     padding: 20px;
@@ -86,8 +112,12 @@
 }
 
 .pagination {
+<<<<<<< HEAD
     margin-top: 10px;
     /* Further reduced top margin to align closer to testimonials */
+=======
+    margin-top: 20px;
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .pagination-button {

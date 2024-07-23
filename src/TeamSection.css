@@ -3,6 +3,7 @@
 .team-section {
     text-align: center;
     color: white;
+<<<<<<< HEAD
     padding: 80px;
     /* Updated padding */
     max-width: 1440px;
@@ -16,6 +17,13 @@
     /* Set gap between elements */
     height: auto;
     /* Adjust height to fit content */
+=======
+    padding: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(6, 11, 84);
+
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .team-section h2 {

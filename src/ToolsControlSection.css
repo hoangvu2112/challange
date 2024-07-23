@@ -7,34 +7,59 @@
     padding: 50px 0;
     max-width: 1440px;
     margin: 0 auto;
+<<<<<<< HEAD
     background-color: rgba(30, 41, 59, 1);
+=======
+    background-color: rgb(6, 11, 84);
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     /* Match background color */
     color: white;
 }
 
 .images-content {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
+=======
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     gap: 10px;
     /* Set gap to 10px */
 }
 
 .images-content img {
+<<<<<<< HEAD
     width: 100%;
     /* Make sure images take full width */
+=======
+    width: 288px;
+    /* Set width to 288px */
+    height: 288px;
+    /* Set height to 288px */
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     border-radius: 20px;
     /* Set border radius to 20px */
     object-fit: cover;
     /* Ensure the image covers the entire area */
+<<<<<<< HEAD
 }
 
 .images-content img:nth-child(1) {
+=======
+    margin: 0 auto;
+    /* Center align images */
+}
+
+.images-content img:first-child {
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
     grid-column: span 2;
     width: 485px;
     /* Set width to 485px for the first image */
     height: 288px;
     /* Set height to 288px for the first image */
+<<<<<<< HEAD
     margin: 0 auto;
     /* Center align the first image */
 }
@@ -48,6 +73,8 @@
     /* Set height to 288px */
     margin: 0 auto;
     /* Center align the other images */
+=======
+>>>>>>> 7cf624d91117dc6b6a93a86b232d146746e04ee3
 }
 
 .text-content {
