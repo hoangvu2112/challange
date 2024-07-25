@@ -1,37 +1,37 @@
-// src/App.js
+import React, { Suspense, lazy } from 'react';
 
-import React from 'react';
-import './App.css';
-import NavBar from './NavBar';
-import MainContent from './MainContent';
-import TrustedCompanies from './TrustedCompanies';
-import TeamSection from './TeamSection';
-import TeamTimeSection from './TeamTimeSection';
-import WebInterfaceSection from './WebInterfaceSection';
-import ToolsControlSection from './ToolsControlSection';
-import ManagementSection from './ManagementSection';
-import GraphSection from './GraphSection';
-import ControlFlowSection from './ControlFlowSection';
-import TestimonialsSection from './TestimonialsSection';
-import TeamProjectsSection from './TeamProjectsSection';
-import Footer from './Footer'; // Add this import statement
+const NavBar = lazy(() => import('./components/NavBar'));
+const MainContent = lazy(() => import('./components/MainContent'));
+const TrustedCompanies = lazy(() => import('./components/TrustedCompanies'));
+const TeamSection = lazy(() => import('./components/TeamSection'));
+const TeamTimeSection = lazy(() => import('./components/TeamTimeSection'));
+const WebInterfaceSection = lazy(() => import('./components/WebInterfaceSection'));
+const ToolsControlSection = lazy(() => import('./components/ToolsControlSection'));
+const ManagementSection = lazy(() => import('./components/ManagementSection'));
+const GraphSection = lazy(() => import('./components/GraphSection'));
+const ControlFlowSection = lazy(() => import('./components/ControlFlowSection'));
+const TestimonialsSection = lazy(() => import('./components/TestimonialsSection'));
+const TeamProjectsSection = lazy(() => import('./components/TeamProjectsSection'));
+const Footer = lazy(() => import('./components/Footer'));
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <MainContent />
-      <TrustedCompanies />
-      <TeamSection />
-      <TeamTimeSection />
-      <WebInterfaceSection />
-      <ToolsControlSection />
-      <ManagementSection />
-      <GraphSection />
-      <ControlFlowSection />
-      <TestimonialsSection />
-      <TeamProjectsSection />
-      <Footer /> {/* Use the component here */}
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <NavBar />
+        <MainContent />
+        <TrustedCompanies />
+        <TeamSection />
+        <TeamTimeSection />
+        <WebInterfaceSection />
+        <ToolsControlSection />
+        <ManagementSection />
+        <GraphSection />
+        <ControlFlowSection />
+        <TestimonialsSection />
+        <TeamProjectsSection />
+        <Footer />
+      </Suspense>
     </div>
   );
 }

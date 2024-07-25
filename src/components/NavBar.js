@@ -1,12 +1,12 @@
-// src/NavBar.js
-
 import React from 'react';
-import './NavBar.css';
+import '../styles/NavBar.css';
 
 const NavBar = () => {
     return (
         <nav className="navbar">
-            <div className="navbar-brand">Trakor</div>
+            <div className="navbar-brand">
+                <img src={`${process.env.PUBLIC_URL}/Trakor.svg`} alt="Trakor Logo" className="brand-logo" />
+            </div>
             <div className="navbar-links">
                 <a href="#product">Product</a>
                 <a href="#solutions">Solutions</a>

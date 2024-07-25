@@ -1,7 +1,5 @@
-// src/TeamSection.js
-
 import React from 'react';
-import './TeamSection.css';
+import '../styles/TeamSection.css';
 
 const TeamSection = () => {
     return (

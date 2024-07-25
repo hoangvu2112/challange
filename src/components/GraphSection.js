@@ -1,7 +1,7 @@
 // src/GraphSection.js
 
 import React from 'react';
-import './GraphSection.css';
+import '../styles/GraphSection.css';
 
 const GraphSection = () => {
     return (

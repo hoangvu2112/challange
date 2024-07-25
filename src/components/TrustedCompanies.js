@@ -1,12 +1,10 @@
-// src/TrustedCompanies.js
-
 import React from 'react';
-import './TrustedCompanies.css';
-import SmartFinderLogo from './logo/SmartFinderLogo.svg';
-import ZoomerrLogo from './logo/ZoomerrLogo.svg';
-import ShellsLogo from './logo/ShellsLogo.svg';
-import WavesLogo from './logo/WavesLogo.svg';
-import ArtVenueLogo from './logo/ArtVenueLogo.svg';
+import '../styles/TrustedCompanies.css';
+import SmartFinderLogo from '../logo/SmartFinderLogo.svg';
+import ZoomerrLogo from '../logo/ZoomerrLogo.svg';
+import ShellsLogo from '../logo/ShellsLogo.svg';
+import WavesLogo from '../logo/WavesLogo.svg';
+import ArtVenueLogo from '../logo/ArtVenueLogo.svg';
 
 const TrustedCompanies = () => {
     return (

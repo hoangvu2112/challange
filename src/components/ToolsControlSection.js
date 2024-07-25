@@ -1,7 +1,7 @@
 // src/ToolsControlSection.js
 
 import React from 'react';
-import './ToolsControlSection.css';
+import '../styles/ToolsControlSection.css';
 
 const ToolsControlSection = () => {
     return (

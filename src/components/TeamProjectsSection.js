@@ -1,7 +1,5 @@
-// src/TeamProjectsSection.js
-
 import React from 'react';
-import './TeamProjectsSection.css';
+import '../styles/TeamProjectsSection.css';
 
 const TeamProjectsSection = () => {
     return (

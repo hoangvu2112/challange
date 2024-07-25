@@ -1,7 +1,5 @@
-// src/MainContent.js
-
 import React from 'react';
-import './MainContent.css';
+import '../styles/MainContent.css';
 
 const MainContent = () => {
     return (
@@ -14,7 +12,7 @@ const MainContent = () => {
                 <button className="request-button">Request more info</button>
             </div>
             <div className="graphic">
-                <img src="/Shapes.svg" alt="Graphic" className="graphic-svg" />
+                <img src={`${process.env.PUBLIC_URL}/shapes.svg`} alt="Graphic" className="graphic-svg" />
             </div>
         </div>
     );
